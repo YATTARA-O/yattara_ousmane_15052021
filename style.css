@@ -1,0 +1,162 @@
+body {
+    margin: 10px;
+    width: auto;
+    height: auto;
+    background-image: url(Photos/Background1.jpg);
+  }
+  .header {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    background-image: url(Photos/Background.jpg);
+    border-radius: 20px 20px 0px 0px;
+  }
+  .logo {
+    border-radius: 20px;
+    margin-left: 60px;
+    text-align: center;
+  }
+  .logo img {
+    border-radius: 20px;
+    padding-top: 5px;
+  }
+  figure {
+    background: white;
+    object-fit: cover;
+    width: 210px;
+    height: 210px;
+    box-shadow: 1px 1px 1px 1px;
+  }
+  .informations > p {
+    color: rgb(6, 2, 19);
+  }
+  .informations {
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 20px;
+    margin-right: 40px;
+    text-align: center;
+  }
+  .description {
+    text-align: center;
+    font-size: 15px;
+    object-fit: cover;
+    padding-top: 80px;
+  }
+  
+  /*=== Recherches ===*/
+  
+  .rechercher {
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    justify-content: flex-end;
+    background-image: url(Photos/Background2.jpg);
+  }
+  ::placeholder {
+    font-size: 16px;
+    color: rgb(10, 4, 4);
+    font-weight: bolder;
+    text-align: center;
+  }
+  .fa-map-marker-alt {
+    padding: 16px 16px;
+    border: 1px solid #f2f2f2;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    width: 30px;
+    background-color: green;
+ 
+  }
+  .recherche {
+    border: none;
+    border-top: 1px solid #f2f2f2;
+    border-bottom: 1px solid #f2f2f2;
+    width: 210px;
+  }
+  .btn_recherche {
+    border: none;
+    width: 130px;
+    height: 50px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background-color: green;
+    color: white;
+    font-size: 14px;
+    font-weight: bolder;
+    cursor: pointer;
+  }
+  .btn_recherche:hover {
+    background-color: #044ab3;
+    cursor: pointer;
+  }
+  .SpanRecherche {
+    display: inline;
+  }
+  .fa-search {
+    display: none;
+  }
+  .ancre {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  li {
+    list-style: none;
+  }
+  a:active {
+    color: brown;
+  }
+  a:hover {
+    color: blue;
+  }
+  .conteneur {
+    display: flex;
+    height: auto;
+    width: auto;
+  }
+  .sidebar {
+    font-size: 20px;
+    background-image: url(Photos/Background.jpg);
+    border-radius: 20px;
+  }
+  .competences {
+    font-size: 20px;
+    margin-left: 20px;
+    background-image: url(Photos/Background.jpg);
+    border-radius: 20px;
+  }
+  .navbar {
+    padding: 10px 10px;
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+    font-size: x-large;
+    justify-content: space-around;
+  }
+  #diplômes {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 10px;
+  }
+  #video {
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+  }
+  #video h1 {
+    color: black;
+    text-align: center;
+  }
+  video {
+    padding-bottom: 3px;
+    border-radius: 20px;
+    background-image: url(Photos/Background.jpg);
+  }
+  section {
+    justify-content: end;
+    background-image: url(Photos/Background.jpg);
+    height: 40px;
+  }
